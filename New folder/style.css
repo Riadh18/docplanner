@@ -1,0 +1,79 @@
+header {
+    position: fixed;
+    top:0%;
+    left: 0%;
+    border: 1px solid white;
+    background-color: white;
+    opacity: .8;
+    }
+    .navigation {
+        display: flex;
+    }
+    .logo {
+        width: 70%;
+        display: block;
+        margin-block-start: 2%;
+        margin-block-end: 2%;
+        margin-inline-start: 2%;
+        margin-inline-end: 2%;
+    }
+    .logo img {
+        width:35%;
+    }
+    .nav-links {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: rgb(0,197,155);
+        margin:18px;
+    }
+    .parent{
+        padding: 10%;
+    }
+    .child {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        }
+        .test {
+            display:flex;
+            justify-content: center;
+            }
+    .parent h1 {
+                width: 50%;
+                margin-left: 25%;
+                color: rgb(79, 230, 197);
+                font-family: 'Charmonman', cursive;
+            }
+            .p {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                text-align: left;
+                margin-left: 8%;
+            }
+            .patient h2 {
+                font-size: 20px;
+                font-weight: 500;
+                margin-left:6%;
+                color: hsla(0,0%,100%,.7);
+                }
+                .patient h1 {
+                    margin-left: 6%;
+                    color: white;
+                }
+                .options {
+                    margin-left: 30%;
+                    padding: 1%; 
+                    border-radius: 10px;
+                    
+                }
+                .flex-container{
+                    display: flex;
+                }
+
+                
