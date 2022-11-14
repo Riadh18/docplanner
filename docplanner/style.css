@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap');
+
+header {
+    position: fixed;
+    top:0%;
+    left: 0%;
+    border: 1px solid white;
+    background-color: white;
+    opacity: .8;
+    }
+    .navigation {
+        display: flex;
+    }
+
+    .logo {
+        width: 70%;
+        display: block;
+        margin-block-start: 2%;
+        margin-block-end: 2%;
+        margin-inline-start: 2%;
+        margin-inline-end: 2%;
+    }
+    .logo img {
+        width:35%;
+    }
+    .nav-links {
+     width: 177%;
+     display: flex;
+     justify-content: center;
+     margin-top: 2%;
+     text-decoration: none;
+      color: rgb(0,197,155);
+       margin: 24px;
+       margin-top: 30px;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: rgb(0,197,155);
+        margin:18px;
+    }
+    .parent{
+        padding: 10%;
+    }
+    .child {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        }
+        .test {
+            display:flex;
+            justify-content: center;
+            }
+    .parent h1 {
+                width: 50%;
+                margin-left: 25%;
+                color: rgb(79, 230, 197);
+                font-family: Work Sans,Arial,sans-serif;
+            }
+            .p {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                text-align: left;
+                margin-left: 8%;
+                margin: 0.8em 0;   
+                line-height: 1.75; 
+                font-weight: 400;
+                font-family: Roboto,Arial,sans-serif;
+            }
+            .dispcreption-container-box-2 p{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                text-align: left;
+                margin-left: 8%;
+                margin: 0.8em 0;   
+                line-height: 1.75; 
+                font-weight: 400;
+                font-family: Roboto,Arial,sans-serif;
+
+            }
+            .patient h2 {
+                font-size: 20px;
+                font-weight: 500;
+                margin-left:6%;
+                color: hsla(0,0%,100%,.7);
+                }
+                .patient h1 {
+                    margin-left: 6%;
+                    color: white;
+                }
+                .options {
+                    margin-left: 30%;
+                    padding: 1%; 
+                    border-radius: 10px;
+                    
+                }
+
+                .all{
+                    display: flex;
+                   
+                   
+                }
+                .all .For-patients{
+                
+                    display: initial;
+                    background-color: #00ccb1;
+                    border: 2px;
+                    margin-left: 153px;
+                    padding-top: 189px;
+                    padding-right: 24px;
+                    border-radius: 15px;
+
+                }
+                .For-patients h2{
+                    font-size: 30px;
+                    font-weight: 400;
+                    position: relative;
+                    bottom: 190px;
+                     color: #fff;
+                     left: 29px;
+    
+                  
+                }
+                .For-patients .all-img{
+                    
+                    width: 20px;01
+                    height: 30px;
+                    position: relative;
+                    bottom: 165px;
+                    left: 35px;
+                    color: white;
+                }
+                .For-patients p{
+                    font-family: Work Sans,Arial,sans-serif;
+                    font-size: 23px;
+                    font-weight: 300;
+                    line-height: 30px;
+                    margin: 0;
+                    color: #fff;
+                    position: relative;
+                    letter-spacing: .3px;
+                    align-items: center;
+                    margin-left: 30px;
+                    margin-top: -80px;
+                    top: -115px;
+                    letter-spacing: .3px;
+                }
+                
+                 .all .For-doctors{
+                     display: initial;
+                     background-color: #3d83df;
+                     border: 2px;
+                     margin-left: 126px;
+                     padding-top: 185px;
+                     padding-right: 29px;
+                     border-radius: 15px;
+                 }
+                     .For-doctors h2{
+                        font-size: 30px;
+                        font-weight: 400;
+                        position: relative;
+                        bottom: 190px;
+                         color: #fff;
+                         left: 29px;
+                     }
+                     .For-doctors .doc{
+                    
+                        width: 20px;01
+                        height: 30px;
+                        position: relative;
+                        bottom: 165px;
+                        left: 35px;
+                        color: white;
+                     }
+                     .For-doctors p {
+                        font-family: Work Sans,Arial,sans-serif;
+                    font-size: 23px;
+                    font-weight: 300;
+                    line-height: 30px;
+                    margin: 0;
+                    color: #fff;
+                    position: relative;
+                    letter-spacing: .3px;
+                    align-items: center;
+                    margin-left: 30px;
+                    margin-top: -80px;
+                    top: -115px;
+                    letter-spacing: .3px;
+
+                     }                                                      
+                .all .For-clinics{
+                    display: initial;
+                    background-color: #1b2734;
+                    border: 2px;
+                    margin-left: 133px;
+                    padding-top: 185px;
+                    padding-right: 29px;
+                    border-radius: 15px;
+                }                
+                
+                .For-clinics h2{
+                     font-size: 30px;
+                     font-weight: 400;
+                     position: relative;
+                     bottom: 190px;
+                     color: #fff;
+                     left: 29px;
+                }
+                .For-clinics .doc-img{
+                    width: 20px;01
+                        height: 30px;
+                        position: relative;
+                        bottom: 165px;
+                        left: 35px;
+                        color: white;
+
+                }
+                .For-clinics p {
+                    font-family: Work Sans,Arial,sans-serif;
+                    font-size: 23px;
+                    font-weight: 300;
+                    line-height: 30px;
+                    margin: 0;
+                    color: #fff;
+                    position: relative;
+                    letter-spacing: .3px;
+                    align-items: center;
+                    margin-left: 30px;
+                    margin-top: -80px;
+                    top: -115px;
+                    letter-spacing: .3px;
+                }
+                .global h1{
+                float: left;
+                 width: 33%;
+                 font-size: 1.625em;
+                 margin: 0.25em 0 0.35em;
+                 padding-right: 1em;
+                  font-family: Work Sans,Arial,sans-serif;
+                 font-weight: 300;
+                  letter-spacing: -.3px;
+
+                }
+                                                  
+                .address-list svg{
+                    
+                    height: 20px;
+                    width: auto;
+                    max-width: 100%;
+                    padding-left: 10px
+                     
+                }
+                .offices-description h1{
+                       font-size: 2.1428571429em;                     
+                       font-weight: 300;
+                       letter-spacing: -.3px;
+                }
+                .offices-description p{
+                 line-height: 2.714286;
+                 display:flex;
+                 margin-block-start: 3em;
+                 margin-block-end: 7em;
+                 margin-inline-start: 365px;
+                 }
+
+                
+
+                .office-list-country-adress a {
+                     text-decoration: none;
+                     color: #3d83df;                                   
+                     
+                }
+                .offices-worldwide{
+                    display: flex;
+                     justify-content: space space-evenly;
+                     margin:32px;
+                }
+                
+                
+                .opening-information {
+                    text-align: right;
+                    margin-top: -17%;
+                    font-family: Arial, Helvetica, sans-serif;
+
+                }
+                .opening-information input {
+                    justify-content: space-between;
+                    background-color: rgb(20, 141, 197);
+                    color:white;
+                    height: 31px;
+                    border-radius: 7px;
+                    
+                    border :none
+                    
+                }
+                .offices-box{
+                    padding:30px
+                
+                
+                   
+                   .footer
+                   {  border-top: 1px solid rgba(196,196,196,0.7);
+                      text-align: center;
+                      color: black;
+                      opacity: .7;
+                  }
+                  .footer {
+                      display: flex;
+                      text-align: center;
+                  }
+                  .footer p {
+                      width: 32%;
+                      color: black;
+                      opacity: .7;
+                      margin-left: 15%;
+                      margin-bottom: 0.5%;
+                  }
+                  .offices-list {
+                      width: 50%;
+                      margin-left: -20%;
+                      margin-top: 1.2%;
+                  }
+                  .footer a {
+                      text-decoration: none;
+                      color: rgb(61,131,223);
+                  }
+
+                
+
+            
+                
+                                                                             
+                          
+                    
+
+
+                
